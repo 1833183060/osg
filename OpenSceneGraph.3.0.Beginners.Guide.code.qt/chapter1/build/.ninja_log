@@ -1,0 +1,24 @@
+# ninja log v5
+8	195	6900508138543893	helloworld_autogen/timestamp	ffd5b4e2b35cd37
+858	7983	6900503123767790	CMakeFiles/helloworld.dir/osgQOpenGLWindow.cpp.obj	36a60ecaa0116307
+8	195	6900508138543893	helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+8	195	6900508138543893	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/timestamp	ffd5b4e2b35cd37
+199	2906	6900508165619342	CMakeFiles/helloworld.dir/main.cpp.obj	4d847165688b79e1
+8	195	6900508138543893	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+844	7892	6900503122851377	CMakeFiles/helloworld.dir/mainwindow.cpp.obj	508bfda4708026e7
+831	7894	6900503122843926	CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.obj	e243006d113d2d5b
+853	8179	6900503125669949	CMakeFiles/helloworld.dir/osgQOpenGLWidget.cpp.obj	8f81667406f600af
+848	8624	6900503130182508	CMakeFiles/helloworld.dir/OSGWidget.cpp.obj	185a6f247a47b49a
+863	8879	6900503132700337	CMakeFiles/helloworld.dir/OSGRenderer.cpp.obj	63a7c693f7a49df8
+2906	3272	6900508169014676	helloworld.exe	4f9dde5c328f6d97
+11	156	6900512220269968	helloworld_autogen/timestamp	ffd5b4e2b35cd37
+11	156	6900512220269968	helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+11	156	6900512220269968	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/timestamp	ffd5b4e2b35cd37
+11	156	6900512220269968	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+156	282	6900512222082254	CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.obj	e243006d113d2d5b
+4	155	6900512397735749	helloworld_autogen/timestamp	ffd5b4e2b35cd37
+4	155	6900512397735749	helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+4	155	6900512397735749	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/timestamp	ffd5b4e2b35cd37
+4	155	6900512397735749	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/helloworld_autogen/mocs_compilation.cpp	ffd5b4e2b35cd37
+156	2106	6900512417202623	CMakeFiles/helloworld.dir/main.cpp.obj	4d847165688b79e1
+2106	2430	6900512420097175	helloworld.exe	29b9067accd8e4dd

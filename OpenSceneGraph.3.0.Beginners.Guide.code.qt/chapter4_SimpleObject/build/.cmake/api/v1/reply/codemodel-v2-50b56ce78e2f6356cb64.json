@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "helloworld_qt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_qt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_qt-Debug-1ab068e5e1d7c1052478.json",
+					"name" : "helloworld_qt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_qt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_qt_autogen-Debug-76becc5bdaf8af70732d.json",
+					"name" : "helloworld_qt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_qt_autogen_timestamp_deps-Debug-1ddc14b3ebe9310a50be.json",
+					"name" : "helloworld_qt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build",
+		"source" : "E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

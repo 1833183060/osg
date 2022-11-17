@@ -1,0 +1,5 @@
+E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/build/CMakeFiles/helloworld.dir
+E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/build/CMakeFiles/edit_cache.dir
+E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/build/CMakeFiles/rebuild_cache.dir
+E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/build/CMakeFiles/helloworld_autogen_timestamp_deps.dir
+E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/build/CMakeFiles/helloworld_autogen.dir

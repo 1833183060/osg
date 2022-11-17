@@ -1,0 +1,25 @@
+# ninja log v5
+6	192	6901378313444408	chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+170	1390	6901355166769737	CMakeFiles/chapter4_SimpleObject.dir/main.cpp.obj	148db5ae3fc56f53
+6	192	6901378313444408	chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+195	3812	6901378349502483	CMakeFiles/chapter4_SimpleObject.dir/OSGWidget.cpp.obj	7c9519adf5054e9e
+6	192	6901378313444408	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+6	192	6901378313444408	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+335	3226	6901368761636704	CMakeFiles/chapter4_SimpleObject.dir/chapter4_SimpleObject_autogen/mocs_compilation.cpp.obj	2b9dcaefc9ca0607
+341	3204	6901139468777786	CMakeFiles/chapter4_SimpleObject.dir/mainwindow.cpp.obj	c7a35c2265b71a1e
+3813	4028	6901378351300474	chapter4_SimpleObject.exe	7c2269bf4766a0d6
+178	2400	6901235288581145	CMakeFiles/chapter4_SimpleObject.dir/main2.cpp.obj	5b6936201cb4eb40
+3	518	6901382414037541	build.ninja	3dc3cc7bcb9fe994
+5	357	6901382475247691	chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+5	357	6901382475247691	chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+5	357	6901382475247691	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+5	357	6901382475247691	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+357	3398	6901382506292018	CMakeFiles/chapter4_SimpleObject.dir/chapter4_SimpleObject_autogen/mocs_compilation.cpp.obj	2b9dcaefc9ca0607
+360	3731	6901382509586240	CMakeFiles/chapter4_SimpleObject.dir/OSGWidget.cpp.obj	7c9519adf5054e9e
+3731	3972	6901382511641057	chapter4_SimpleObject.exe	7c2269bf4766a0d6
+5	180	6901746273416682	chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+5	180	6901746273416682	chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+5	180	6901746273416682	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/timestamp	c3a26d1c78c6bb2
+5	180	6901746273416682	E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1_qwidget/build/chapter4_SimpleObject_autogen/mocs_compilation.cpp	c3a26d1c78c6bb2
+183	3240	6901746303961026	CMakeFiles/chapter4_SimpleObject.dir/OSGWidget.cpp.obj	7c9519adf5054e9e
+3240	3482	6901746306109313	chapter4_SimpleObject.exe	7c2269bf4766a0d6

@@ -1,0 +1,109 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30145.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/CMakeFiles/3.23.0/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/download/ninja-win/ninja.exe cmTC_1a950 && [1/2] Building CXX object CMakeFiles\cmTC_1a950.dir\CMakeCXXCompilerABI.cpp.obj
+注意: 包含文件:  C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerABI.h
+[2/2] Linking CXX executable cmTC_1a950.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: E:/mywork/osg/OpenSceneGraph.3.0.Beginners.Guide.code/chapter1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/download/ninja-win/ninja.exe cmTC_7ed2e && [1/2] Building CXX object CMakeFiles\cmTC_7ed2e.dir\src.cxx.obj
+注意: 包含文件:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h
+注意: 包含文件:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h
+注意: 包含文件:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h
+注意: 包含文件:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\crtdbg.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h
+注意: 包含文件:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stddef.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\string.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memory.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memcpy_s.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\errno.h
+注意: 包含文件:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstring.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef
+注意: 包含文件:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_math.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdlib.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_search.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdlib.h
+注意: 包含文件:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h
+注意: 包含文件:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wtime.h
+E:\mywork\osg\OpenSceneGraph.3.0.Beginners.Guide.code\chapter1\build\CMakeFiles\CMakeTmp\src.cxx(17): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *”
+[2/2] Linking CXX executable cmTC_7ed2e.exe
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}
