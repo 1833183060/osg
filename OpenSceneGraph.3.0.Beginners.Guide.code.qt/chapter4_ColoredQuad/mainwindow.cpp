@@ -3,6 +3,11 @@
 #include "chapter4_DrawOctahedron.h"
 #include "chapter4_TessellatePolygon.h"
 #include "chapter4_PrimitiveFunctor.h"
+#include "chapter5_AddModel.h"
+#include "chapter5_TranslateNode.h"
+#include "chapter5_SwitchNode.h"
+#include "chapter5_LOD.h"
+#include "chapter5_SwitchAnimate.h"
 #include <QDebug>
 #include <QMdiSubWindow>
 #include <QMenuBar>
@@ -34,8 +39,29 @@ MainWindow::MainWindow( QWidget* parent, Qt::WindowFlags flags )
       QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter4_PrimitiveFunctor( this ) );
       subWindow->show();
   });
-  //chapter4_TessellatePolygon
 
+  menu->addAction( "chapter5_AddModel", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_AddModel( this ) );
+      subWindow->show();
+  });
+  menu->addAction( "chapter5_TranslateNode", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_TranslateNode( this ) );
+      subWindow->show();
+  });
+
+  menu->addAction( "chapter5_SwitchNode", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_SwitchNode( this ) );
+      subWindow->show();
+  });
+  menu->addAction( "chapter5_LOD", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_LOD( this ) );
+      subWindow->show();
+  });
+
+  menu->addAction( "chapter5_SwitchAnimate", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_SwitchAnimate( this ) );
+      subWindow->show();
+  });
   this->setCentralWidget( mdiArea_ );
 
 

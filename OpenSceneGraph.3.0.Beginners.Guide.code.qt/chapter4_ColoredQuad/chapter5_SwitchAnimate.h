@@ -1,5 +1,5 @@
-#ifndef chapter4_TessellatePolygon_h__
-#define chapter4_TessellatePolygon_h__
+#ifndef chapter5_SwitchAnimate_h__
+#define chapter5_SwitchAnimate_h__
 
 #include <QPoint>
 #include <QtOpenGLWidgets/QOpenGLWidget>
@@ -11,20 +11,23 @@
 #include "osgQWidget.h"
 
 
-class chapter4_TessellatePolygon : public osgQWidget
+class chapter5_SwitchAnimate : public osgQWidget
 {
   Q_OBJECT
 
 public:
-  chapter4_TessellatePolygon( QWidget* parent = 0,Qt::WindowFlags f = Qt::WindowFlags());
-
-  virtual ~chapter4_TessellatePolygon();
+  chapter5_SwitchAnimate( QWidget* parent = 0,Qt::WindowFlags f = Qt::WindowFlags());
 
 
 
   // osgQWidget interface
 protected:
   osg::ref_ptr<osg::Node> initSceneData() override;
+
+
+  // osgQWidget interface
+protected:
+
 };
 
 #endif

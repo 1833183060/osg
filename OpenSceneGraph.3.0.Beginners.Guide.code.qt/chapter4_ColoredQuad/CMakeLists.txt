@@ -26,6 +26,16 @@ set(PROJECT_SOURCES
         chapter4_TessellatePolygon.cpp
         chapter4_PrimitiveFunctor.h
         chapter4_PrimitiveFunctor.cpp
+        chapter5_AddModel.h
+        chapter5_AddModel.cpp
+        chapter5_TranslateNode.h
+        chapter5_TranslateNode.cpp
+        chapter5_SwitchNode.h
+        chapter5_SwitchNode.cpp
+        chapter5_LOD.h
+        chapter5_LOD.cpp
+        chapter5_SwitchAnimate.h
+        chapter5_SwitchAnimate.cpp
         osgQWidget.h
         osgQWidget.cpp
 )

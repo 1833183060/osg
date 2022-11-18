@@ -36,6 +36,10 @@ protected:
 
   virtual bool event( QEvent* event );
 
+  virtual osg::ref_ptr<osg::Node> initSceneData(){return nullptr;};
+
+  void initSet();
+  void init();
 protected:
 
   virtual void onHome();
@@ -45,7 +49,7 @@ protected:
 
   osg::ref_ptr<osgViewer::GraphicsWindowEmbedded> graphicsWindow_;
   osg::ref_ptr<osgViewer::Viewer> viewer_;
-
+    osg::ref_ptr<osg::Node> root;
 };
 
 #endif

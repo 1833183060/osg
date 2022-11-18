@@ -27,6 +27,10 @@ protected:
 private:
 
 
+
+  // osgQWidget interface
+protected:
+  osg::ref_ptr<osg::Node> initSceneData() override;
 };
 
 #endif

@@ -1,5 +1,5 @@
-#ifndef chapter4_TessellatePolygon_h__
-#define chapter4_TessellatePolygon_h__
+#ifndef chapter5_TranslateNode_h__
+#define chapter5_TranslateNode_h__
 
 #include <QPoint>
 #include <QtOpenGLWidgets/QOpenGLWidget>
@@ -11,20 +11,25 @@
 #include "osgQWidget.h"
 
 
-class chapter4_TessellatePolygon : public osgQWidget
+class chapter5_TranslateNode : public osgQWidget
 {
   Q_OBJECT
 
 public:
-  chapter4_TessellatePolygon( QWidget* parent = 0,Qt::WindowFlags f = Qt::WindowFlags());
+  chapter5_TranslateNode( QWidget* parent = 0,Qt::WindowFlags f = Qt::WindowFlags());
 
-  virtual ~chapter4_TessellatePolygon();
+  virtual ~chapter5_TranslateNode();
 
 
 
   // osgQWidget interface
 protected:
   osg::ref_ptr<osg::Node> initSceneData() override;
+
+
+  // osgQWidget interface
+protected:
+
 };
 
 #endif
