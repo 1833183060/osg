@@ -8,6 +8,9 @@
 #include "chapter5_SwitchNode.h"
 #include "chapter5_LOD.h"
 #include "chapter5_SwitchAnimate.h"
+#include "chapter7_HUD.h"
+#include "chapter7_MultiSampling.h"
+#include "chapter8_GeometryDynamically.h"
 #include <QDebug>
 #include <QMdiSubWindow>
 #include <QMenuBar>
@@ -60,6 +63,21 @@ MainWindow::MainWindow( QWidget* parent, Qt::WindowFlags flags )
 
   menu->addAction( "chapter5_SwitchAnimate", this, [=](){
       QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter5_SwitchAnimate( this ) );
+      subWindow->show();
+  });
+
+  menu->addAction( "chapter7_HUD", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter7_HUD( this ) );
+      subWindow->show();
+  });
+
+  menu->addAction( "chapter7_MultiSampling", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter7_MultiSampling( this ) );
+      subWindow->show();
+  });
+
+  menu->addAction( "chapter8_GeometryDynamically", this, [=](){
+      QMdiSubWindow* subWindow = mdiArea_->addSubWindow( new chapter8_GeometryDynamically( this ) );
       subWindow->show();
   });
   this->setCentralWidget( mdiArea_ );

@@ -8,7 +8,7 @@
 
 #include <osgViewer/GraphicsWindow>
 #include <osgViewer/Viewer>
-
+#include <QTimer>
 
 
 class osgQWidget : public QOpenGLWidget
@@ -50,6 +50,14 @@ protected:
   osg::ref_ptr<osgViewer::GraphicsWindowEmbedded> graphicsWindow_;
   osg::ref_ptr<osgViewer::Viewer> viewer_;
     osg::ref_ptr<osg::Node> root;
+QTimer* timer;
+    // QOpenGLWidget interface
+protected:
+    void initializeGL() override;
+
+    // QObject interface
+protected:
+    void timerEvent(QTimerEvent *event) override;
 };
 
 #endif

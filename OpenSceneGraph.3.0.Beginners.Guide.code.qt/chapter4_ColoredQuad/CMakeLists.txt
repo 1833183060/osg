@@ -36,6 +36,12 @@ set(PROJECT_SOURCES
         chapter5_LOD.cpp
         chapter5_SwitchAnimate.h
         chapter5_SwitchAnimate.cpp
+        chapter7_HUD.h
+        chapter7_HUD.cpp
+        chapter7_MultiSampling.h
+        chapter7_MultiSampling.cpp
+        chapter8_GeometryDynamically.h
+        chapter8_GeometryDynamically.cpp
         osgQWidget.h
         osgQWidget.cpp
 )

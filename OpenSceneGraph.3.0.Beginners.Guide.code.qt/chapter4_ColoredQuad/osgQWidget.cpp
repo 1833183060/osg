@@ -43,11 +43,17 @@ osgQWidget::osgQWidget( QWidget* parent,
                                                             this->height() ) )
   , viewer_( new osgViewer::Viewer )
 {
-
+    timer=new QTimer(this);
+    connect(timer,&QTimer::timeout, this,[=](){
+        update();
+    });
+    timer->start(10);
+    //startTimer(30);
 }
 
 osgQWidget::~osgQWidget()
 {
+    //timer->stop();
 }
 
 void osgQWidget::paintGL()
@@ -241,7 +247,7 @@ void osgQWidget::initSet()
     viewer_->setCamera(camera);
 viewer_->setSceneData(root.get());
     viewer_->setCameraManipulator( manipulator );
-    viewer_->setThreadingModel( osgViewer::Viewer::SingleThreaded );
+   viewer_->setThreadingModel( osgViewer::Viewer::SingleThreaded );
     viewer_->realize();
     // This ensures that the widget will receive keyboard events. This focus
     // policy is not set by default. The default, Qt::NoFocus, will result in
@@ -302,5 +308,18 @@ osgGA::EventQueue* osgQWidget::getEventQueue() const
   if( eventQueue )
     return eventQueue;
   else
-    throw std::runtime_error( "Unable to obtain valid event queue");
+      throw std::runtime_error( "Unable to obtain valid event queue");
+}
+
+void osgQWidget::initializeGL()
+{
+//osg::DisplaySettings::instance()->setNumMultiSamples(4);
+    //QOpenGLWidget::initializeGL();
+}
+
+void osgQWidget::timerEvent(QTimerEvent *event)
+{
+    //这个函数执行不到，可能是因为osg占用了
+    //this->update();//
+
 }
